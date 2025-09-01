@@ -1,6 +1,6 @@
 # Adblock
 A lightweight browser extension that automatically removes **ads and unwanted elements** from websites.  
-Currently supports **LinkedIn**, but designed to be **easily extended** to other platforms.
+Currently supports **LinkedIn**, but is designed to be **easily extended** to other platforms.
 
 ## Features
 - Hides **promoted posts and ads** on LinkedIn.
@@ -8,12 +8,12 @@ Currently supports **LinkedIn**, but designed to be **easily extended** to other
 - Modular design — add new site-specific rules/scripts in minutes.
 - Simple, fast, and minimal codebase.
 
-## Installation
+## Installation // Will be added to chrome web store soon.
 
 ### 1. Clone or Download
-     ```bash
+     
      git clone https://github.com/<your-username>/adblock.git
-     ```
+     
 Or download the ZIP and extract it.
 
 ### 2. Load in Chrome
@@ -38,9 +38,9 @@ smart-adblocker/
 
 ## How It Works
 
-### 1. Background Script (extension.js)
-     •	Detects when a supported site is opened and injects the correct content script.
-### 2. Content Script(s) (e.g., linkedin.js)
+### 1. Background Script (extension.js) <br>
+	•	Detects when a supported site is opened and injects the correct content script.
+### 2. Content Script(s) (e.g., linkedin.js) <br>
 	•	Scans the page for ad markers (like the text "Promoted" on LinkedIn).
 	•	Locates the post container element.
 	•	Removes or hides it automatically.
@@ -58,13 +58,13 @@ smart-adblocker/
          •  Add cookie management settings.
 
 ## Limitations
-	•	Works only on Google Chrome (but should work on any Chromium-based browser like Brave, Edge, Opera).
-	•	If websites change their UI, selectors may need updating.
+•	Works only on Google Chrome (but should work on any Chromium-based browser like Brave, Edge, Opera). <br>
+•	If websites change their UI, selectors may need updating.
 
 ## Author
 
-     •    Made with ❤️ by Toffee
-     •    Contributions welcome! Fork the repo and open a pull request.
+•    Made with ❤️ by Toffee x
+•    Contributions welcome! Fork the repo and open a pull request.
 
 ## License
-     This project is licensed under the MIT License.
+This project is licensed under the MIT License.

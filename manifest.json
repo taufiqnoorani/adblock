@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn AdBlocker",
+  "description": "Blocking ads on LinkedIn feeds.",
+  "version": "0.0.1",
+  "author": "Toffee",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://www.linkedin.com/*"
+  ],
+  "background": {
+    "service_worker": "extension.js"
+  },
+  "action": {
+    "default_title": "LinkedIn AdBlocker"
+  }
+}
